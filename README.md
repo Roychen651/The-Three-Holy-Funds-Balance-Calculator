@@ -26,6 +26,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Render link 
 https://the-three-holy-funds-balance-calculator-1pis.onrender.com/
 
-⚠️ Disclaimer: This tool is for educational and informational purposes only. The recommendations provided are based on user input and preferences.<br/> The author is not a financial advisor, and all investment decisions are at the discretion of the user.<br/> The author cannot be held responsible for any investment outcomes resulting from the use of this tool.
+
+## ⚠️ Disclaimer
+This tool is for educational and informational purposes only. The recommendations provided are based on user input and preferences.<br/> The author is not a financial advisor, and all investment decisions are at the discretion of the user.<br/> The author cannot be held responsible for any investment outcomes resulting from the use of this tool.
 
 Made with ❤️ by Roy Chen

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Three Holy Funds Balance Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center my-4">The Three Holy Funds Balance Calculator</h1>
+    <div id="form-container">
+      <div class="fund">
+        <label for="fund1">Fund Name:</label>
+        <input type="text" id="fund1" class="form-control fund-name">
+        <label for="target1">Target Percentage:</label>
+        <input type="number" id="target1" class="form-control target-percentage">
+        <label for="current1">Current Allocation:</label>
+        <input type="number" id="current1" class="form-control current-allocation">
+      </div>
+      <div class="fund">
+        <label for="fund2">Fund Name:</label>
+        <input type="text" id="fund2" class="form-control fund-name">
+        <label for="target2">Target Percentage:</label>
+        <input type="number" id="target2" class="form-control target-percentage">
+        <label for="current2">Current Allocation:</label>
+        <input type="number" id="current2" class="form-control current-allocation">
+      </div>
+      <div class="fund">
+        <label for="fund3">Fund Name:</label>
+        <input type="text" id="fund3" class="form-control fund-name">
+        <label for="target3">Target Percentage:</label>
+        <input type="number" id="target3" class="form-control target-percentage">
+        <label for="current3">Current Allocation:</label>
+        <input type="number" id="current3" class="form-control current-allocation">
+      </div>
+      <button id="calculate-btn" class="btn btn-primary btn-block">Calculate</button>
+    </div>
+    <div id="result" class="mt-4"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

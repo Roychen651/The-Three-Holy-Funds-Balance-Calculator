@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #ffefba, #ffffff, #d9d9d9);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+    text-align: center; /* Center align the headline */
+    font-size: 48px; /* Increase font size */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 4px; /* Add letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    font-weight: bold; /* Make the font bold */
+    line-height: 1.2; /* Adjust line height */
+}
+
+.fund {
+    margin-bottom: 20px;
+}
+
+.fund label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.fund input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#calculate-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#calculate-btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #28a745; 
+    border: 1px solid #218838; 
+    padding: 10px;
+    border-radius: 5px;
+}
